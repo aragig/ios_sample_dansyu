@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ios_sample_dansyu
+//  CalenderSampleApp
 //
 //  Created by Toshihiko Arai on 2024/11/25.
 //
