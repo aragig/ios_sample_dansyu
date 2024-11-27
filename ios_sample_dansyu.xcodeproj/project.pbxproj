@@ -23,6 +23,13 @@
 		E5627BD32CF4BEDB00C4DD5A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E5627BD22CF4BEDB00C4DD5A /* Base */; };
 		E5627BD92CF4BF2800C4DD5A /* CalendarPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5627BD82CF4BF2800C4DD5A /* CalendarPageViewController.swift */; };
 		E5627BDB2CF4BF3600C4DD5A /* CustomCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5627BDA2CF4BF3600C4DD5A /* CustomCalendarCell.swift */; };
+		E5A92F722CF72E830019C6DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A92F712CF72E830019C6DB /* AppDelegate.swift */; };
+		E5A92F742CF72E830019C6DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A92F732CF72E830019C6DB /* SceneDelegate.swift */; };
+		E5A92F762CF72E830019C6DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A92F752CF72E830019C6DB /* ViewController.swift */; };
+		E5A92F792CF72E830019C6DB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E5A92F782CF72E830019C6DB /* Base */; };
+		E5A92F7B2CF72E840019C6DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A92F7A2CF72E840019C6DB /* Assets.xcassets */; };
+		E5A92F7E2CF72E840019C6DB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E5A92F7D2CF72E840019C6DB /* Base */; };
+		E5A92F842CF731190019C6DB /* VerticalProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A92F832CF731190019C6DB /* VerticalProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +53,15 @@
 		E5627BD42CF4BEDB00C4DD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5627BD82CF4BF2800C4DD5A /* CalendarPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPageViewController.swift; sourceTree = "<group>"; };
 		E5627BDA2CF4BF3600C4DD5A /* CustomCalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalendarCell.swift; sourceTree = "<group>"; };
+		E5A92F6F2CF72E830019C6DB /* AlcoholMeterSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlcoholMeterSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A92F712CF72E830019C6DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5A92F732CF72E830019C6DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E5A92F752CF72E830019C6DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5A92F782CF72E830019C6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5A92F7A2CF72E840019C6DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5A92F7D2CF72E840019C6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5A92F7F2CF72E840019C6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5A92F832CF731190019C6DB /* VerticalProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +73,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E5627BC12CF4BEDB00C4DD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A92F6C2CF72E830019C6DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,6 +110,7 @@
 			children = (
 				E5627BC52CF4BEDB00C4DD5A /* CalenderSampleApp */,
 				E55B84692CF6D35F00B110F3 /* AlcoholFormSampleApp */,
+				E5A92F702CF72E830019C6DB /* AlcoholMeterSampleApp */,
 				E5627BAA2CF4BEB800C4DD5A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +120,7 @@
 			children = (
 				E5627BC42CF4BEDB00C4DD5A /* CalenderSampleApp.app */,
 				E55B84682CF6D35F00B110F3 /* AlcoholFormSampleApp.app */,
+				E5A92F6F2CF72E830019C6DB /* AlcoholMeterSampleApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +139,21 @@
 				E5627BD42CF4BEDB00C4DD5A /* Info.plist */,
 			);
 			path = CalenderSampleApp;
+			sourceTree = "<group>";
+		};
+		E5A92F702CF72E830019C6DB /* AlcoholMeterSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				E5A92F712CF72E830019C6DB /* AppDelegate.swift */,
+				E5A92F732CF72E830019C6DB /* SceneDelegate.swift */,
+				E5A92F752CF72E830019C6DB /* ViewController.swift */,
+				E5A92F832CF731190019C6DB /* VerticalProgressBar.swift */,
+				E5A92F772CF72E830019C6DB /* Main.storyboard */,
+				E5A92F7A2CF72E840019C6DB /* Assets.xcassets */,
+				E5A92F7C2CF72E840019C6DB /* LaunchScreen.storyboard */,
+				E5A92F7F2CF72E840019C6DB /* Info.plist */,
+			);
+			path = AlcoholMeterSampleApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +193,23 @@
 			productReference = E5627BC42CF4BEDB00C4DD5A /* CalenderSampleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E5A92F6E2CF72E830019C6DB /* AlcoholMeterSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5A92F822CF72E840019C6DB /* Build configuration list for PBXNativeTarget "AlcoholMeterSampleApp" */;
+			buildPhases = (
+				E5A92F6B2CF72E830019C6DB /* Sources */,
+				E5A92F6C2CF72E830019C6DB /* Frameworks */,
+				E5A92F6D2CF72E830019C6DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlcoholMeterSampleApp;
+			productName = AlcoholMeterSampleApp;
+			productReference = E5A92F6F2CF72E830019C6DB /* AlcoholMeterSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -167,6 +224,9 @@
 						CreatedOnToolsVersion = 15.4;
 					};
 					E5627BC32CF4BEDB00C4DD5A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E5A92F6E2CF72E830019C6DB = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -186,6 +246,7 @@
 			targets = (
 				E5627BC32CF4BEDB00C4DD5A /* CalenderSampleApp */,
 				E55B84672CF6D35F00B110F3 /* AlcoholFormSampleApp */,
+				E5A92F6E2CF72E830019C6DB /* AlcoholMeterSampleApp */,
 			);
 		};
 /* End PBXProject section */
@@ -208,6 +269,16 @@
 				E5627BD02CF4BEDB00C4DD5A /* Assets.xcassets in Resources */,
 				E5627BD32CF4BEDB00C4DD5A /* Base in Resources */,
 				E5627BCE2CF4BEDB00C4DD5A /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A92F6D2CF72E830019C6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A92F7B2CF72E840019C6DB /* Assets.xcassets in Resources */,
+				E5A92F7E2CF72E840019C6DB /* Base in Resources */,
+				E5A92F792CF72E830019C6DB /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +306,17 @@
 				E5627BC72CF4BEDB00C4DD5A /* AppDelegate.swift in Sources */,
 				E5627BD92CF4BF2800C4DD5A /* CalendarPageViewController.swift in Sources */,
 				E5627BC92CF4BEDB00C4DD5A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A92F6B2CF72E830019C6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A92F842CF731190019C6DB /* VerticalProgressBar.swift in Sources */,
+				E5A92F762CF72E830019C6DB /* ViewController.swift in Sources */,
+				E5A92F722CF72E830019C6DB /* AppDelegate.swift in Sources */,
+				E5A92F742CF72E830019C6DB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +351,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				E5627BD22CF4BEDB00C4DD5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E5A92F772CF72E830019C6DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A92F782CF72E830019C6DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5A92F7C2CF72E840019C6DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A92F7D2CF72E840019C6DB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -511,6 +609,64 @@
 			};
 			name = Release;
 		};
+		E5A92F802CF72E840019C6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TNNPKNN4HZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlcoholMeterSampleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apppppp.AlcoholMeterSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5A92F812CF72E840019C6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TNNPKNN4HZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlcoholMeterSampleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apppppp.AlcoholMeterSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -537,6 +693,15 @@
 			buildConfigurations = (
 				E5627BD62CF4BEDB00C4DD5A /* Debug */,
 				E5627BD72CF4BEDB00C4DD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5A92F822CF72E840019C6DB /* Build configuration list for PBXNativeTarget "AlcoholMeterSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A92F802CF72E840019C6DB /* Debug */,
+				E5A92F812CF72E840019C6DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
